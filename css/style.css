@@ -11,13 +11,17 @@
 
 }
 
+strong{
+    background-color: #02ff02;
+}
+
 .logo{
     margin-top: 10px;
     margin-left: 20px;
     background-color: #FFFFFF;
 }
 
-strong{
+.title{
     font-size: 40px;
     background-color: #FFFFFF;
 }
@@ -59,4 +63,15 @@ strong{
    height: 900px;
    width: 1000px;
    border-radius: 5px;
+}
+
+.list-items{
+    background-color: #02ff02;
+    list-style: none;
+
+}
+
+li{
+    background-color: #02ff02;
+
 }
