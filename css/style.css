@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    border: 0px;
+    background-color: #FAFBFC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner{
+    background-color: #FFFFFF;
+    height: 100px;
+
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+strong{
+    font-size: 40px;
+}
+
+/* INIZIO LISTA */
+
+.list{
+    background-color: #ff0000;
+   height: 1000px;
+   width: 500px;
+
+}
