@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     border: 0px;
+    box-sizing: border-box;
     background-color: #FAFBFC;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -67,11 +68,32 @@ strong{
 
 .list-items{
     background-color: #02ff02;
-    list-style: none;
+    
 
+}
+
+.list1{
+    background-color: #02ff02;
+    list-style: none;
 }
 
 li{
     background-color: #02ff02;
 
 }
+
+details > summary {
+    padding: 4px;
+    width: 200px;
+    background-color: #02ff02;
+    border: none;
+    box-shadow: 1px 1px 2px #02ff02;
+    cursor: pointer;
+  }
+  
+  details > ul {
+    background-color: #02ff02;
+    padding: 4px;
+    margin: 0;
+    box-shadow: 1px 1px 2px #02ff02;
+  }
