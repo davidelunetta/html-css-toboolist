@@ -1,45 +1,54 @@
 *{
     margin: 0px;
-    border: 0px;
+    padding: 0px;    
     box-sizing: border-box;
-    background-color: #FAFBFC;
+    background-color: #F6F8F9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .banner{
     background-color: #FFFFFF;
     height: 100px;
+    border-radius: 5px;
+    margin-bottom: 40px;
 
 }
 
+li{
+  list-style: none;  
+}
+
 strong{
-    background-color: #02ff02;
+    background-color: #ffffff;
 }
 
 .logo{
     margin-top: 10px;
     margin-left: 20px;
     background-color: #FFFFFF;
-    vertical-align:bottom ;
+    vertical-align: middle ;
 }
 
-.title{
+h1{
     font-size: 40px;
     background-color: #FFFFFF;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 /* INIZIO LISTA */
 
 .button{
-    background-color: #ff0000;
-    margin: auto;
-   height: 80px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-top: 20px;
+   height: 60px;
    width: 1000px;
    border-radius: 5px;
 }
 
 .task{
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 30px;
     border-radius: 5px;
     padding: 5px;
@@ -47,13 +56,13 @@ strong{
 }
 
 .section{
-    margin-top: 30px;
+    margin-top: 15px;
     border-radius: 5px;
     padding: 5px;
 }
 
 .margine{
-    background-color: #FAFBFC;
+    background-color: #F6F8F9;
     margin: auto;
    height: 2px;
    width: 1000px;
@@ -61,7 +70,7 @@ strong{
 }
 
 .list{
-    background-color: #02ff02;
+    background-color: #ffffff;
     border-top: 10px;
     margin: auto;
    height: 900px;
@@ -69,34 +78,37 @@ strong{
    border-radius: 5px;
 }
 
-.list-items{
-    background-color: #02ff02;
-    
-
-}
 
 .list1{
-    background-color: #02ff02;
+    background-color: #ffffff;
     list-style: none;
 }
 
 li{
-    background-color: #02ff02;
+    background-color: #ffffff;
 
 }
 
-details > summary {
-    padding: 4px;
+details > summary { 
+     padding: 4px;
     width: 200px;
-    background-color: #02ff02;
+    background-color: #ffffff;
     border: none;
-    box-shadow: 1px 1px 2px #02ff02;
+    box-shadow: 1px 1px 2px #ffffff;
     cursor: pointer;
   }
   
   details > ul {
-    background-color: #02ff02;
+    background-color: #ffffff;
     padding: 4px;
     margin: 0;
-    box-shadow: 1px 1px 2px #02ff02;
+    box-shadow: 1px 1px 2px #ffffff;
+  }
+
+  .editorials{
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    color: #ff0000;
+    font-size: 0,5em;
   }
